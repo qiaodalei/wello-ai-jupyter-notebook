@@ -1,0 +1,22 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+backend/data/settings.json
+.env
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.egg-info/
+.idea/
+.vscode/
+
+# The kernel's working directory: whatever you make while using the app.
+notebooks/*
+!notebooks/.gitkeep
+
+# Datasets the demos download (MNIST and friends).
+data/
